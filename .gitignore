@@ -1,0 +1,22 @@
+# Virtual Environment (Crucial: prevents uploading thousands of library files)
+venv/
+.venv/
+env/
+
+# Secrets & Configuration (Crucial: protects your API keys)
+.env
+*.env
+
+# Local Databases (Crucial: keeps your mock data local)
+*.db
+*.sqlite3
+
+# Python Cache (Cleans up your repository)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Operating System Files
+.DS_Store
+Thumbs.db
